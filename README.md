@@ -18,7 +18,7 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
  - [TTS from Openai API](https://platform.openai.com/docs/guides/text-to-speech)
  - [General talks from CharacterAi API](https://beta.character.ai/chats)
  - [YT data API for playing YT video](https://developers.google.com/youtube/v3)
- - [Weaher API](https://api.openweathermap.org/data/2.5/weather)
+ - [Weather API](https://api.openweathermap.org/data/2.5/weather)
 
 ## Installation
 
