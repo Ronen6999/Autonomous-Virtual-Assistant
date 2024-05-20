@@ -2,8 +2,11 @@
 
 AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant developed by Ronen in May 2024. It leverages advanced AI technologies, including Google GenAI and Character AI, to provide intelligent and interactive responses. AVA can handle tasks such as opening applications, fetching weather updates, running speed tests, and more—all without relying on any external app for its GUI. This self-contained virtual assistant offers a seamless and charming experience inspired by anime characters.
 
-![My Remote Image](<a href="https://i.ibb.co/2hT7Hgm/2024-05-20-2.png")
-
+<p align="center">
+<a href="https://github.com/Ronen6999/Autonomous-Virtual-Assistant">
+    <img src="https://i.imgur.com/MClOeqe.jpeg](https://i.ibb.co/2hT7Hgm/2024-05-20-2.png">
+  </a>
+ 
 ## Demo
  - [Demo]()
  - [Live Test]()
