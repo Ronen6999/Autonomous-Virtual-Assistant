@@ -85,10 +85,10 @@ Generates content or responses using Google GenAI for specific requests, such as
 
 ## API'S Used
 
- - [Notepad texts from Gemini API](https://ai.google.dev/?gad_source=1&gclid=Cj0KCQjw6auyBhDzARIsALIo6v9ti61NHvqFunUKsMwzEVwtjtdP0h69vNzHCWMRG4zVbRy6mCNmcJMaAuQCEALw_wcB)
+ - [Gemini API](https://ai.google.dev/?gad_source=1&gclid=Cj0KCQjw6auyBhDzARIsALIo6v9ti61NHvqFunUKsMwzEVwtjtdP0h69vNzHCWMRG4zVbRy6mCNmcJMaAuQCEALw_wcB)
  - [TTS from Openai API](https://platform.openai.com/docs/guides/text-to-speech)
- - [General talks from CharacterAi API](https://beta.character.ai/chats)
- - [YT data API for playing YT video](https://developers.google.com/youtube/v3)
+ - [CharacterAi API](https://beta.character.ai/chats)
+ - [YT data API](https://developers.google.com/youtube/v3)
  - [Weather API](https://api.openweathermap.org/data/2.5/weather)
 
 ## Installation
