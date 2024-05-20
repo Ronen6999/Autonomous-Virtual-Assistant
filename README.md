@@ -12,7 +12,7 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
  - [Live Test]()
  - [Code Explain]()
 
-#Functions 
+## Functions 
 
 - General Interaction:
 
