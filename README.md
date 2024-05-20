@@ -8,21 +8,20 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
 
 <br>
 
-<h4 align="center"> Join my WhatsApp Group for Discussion / Suggestion / Help.
+<h4 align="center"> Join my WhatsApp Group if you face any error,bug or need help. You can also suggest me new features to add.
 </h4>
 
 <p align="center" >
-<a href="https://cutt.ly/AtlasSupportStrict"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="140px">
+<a href="https://chat.whatsapp.com/E97PJIxKEvcKpRZFq7QWNV"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="140px">
 </a>
 </p>
     
 ---
 <br>
-<h4 align="center"> Join my WhatsApp Group for Discussion / Suggestion / Help.
-</h4>
+<h4 align="center"> Feel free to DM me if you face any error,bug or need help. You can also suggest me new features to add.
 
 <p align="center" >
-<a href="https://cutt.ly/AtlasSupportStrict"><img src="https://img.shields.io/badge/Join%20Group-E4405F?style=for-the-badge&logo=instagram&logoColor=white" width="140px">
+<a href="https://www.instagram.com/phoenix.site?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="https://img.shields.io/badge/DM%20Me-E4405F?style=for-the-badge&logo=instagram&logoColor=white" width="140px">
 </a>
 </p>
     
