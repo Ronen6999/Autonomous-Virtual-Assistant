@@ -22,8 +22,7 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
 </h4>
 
 <p align="center" >
-<a href="https://cutt.ly/AtlasSupportStrict"><img src="![DM me](https://img.shields.io/badge/Join%20Group-E4405F?style=for-the-badge&logo=instagram&logoColor=white)
-" width="140px">
+<a href="https://cutt.ly/AtlasSupportStrict"><img src="https://img.shields.io/badge/Join%20Group-E4405F?style=for-the-badge&logo=instagram&logoColor=white" width="140px">
 </a>
 </p>
     
