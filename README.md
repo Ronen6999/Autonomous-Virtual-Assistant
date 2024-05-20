@@ -18,20 +18,21 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
 Responds to various general inquiries and commands.
 
 - Open Applications:
-YouTube
-Google Chrome
-Terminal (Command Prompt)
-Visual Studio Code
-Instagram
-Notepad
-WhatsApp Web
-GitHub Profile
-Close Applications:
-Visual Studio Code
-Notepad
-Microsoft Edge
-Chrome Browser
-YouTube
+YouTube,
+Google Chrome,
+Terminal (Command Prompt),
+Visual Studio Code,
+Instagram,
+Notepad,
+WhatsApp Web,
+GitHub Profile,
+
+- Close Applications:
+Visual Studio Code,
+Notepad,
+Microsoft Edge,
+Chrome Browser,
+YouTube,
 
 - Weather Updates:
 Fetches and provides current weather information for specified locations using OpenWeatherMap API.
