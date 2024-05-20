@@ -18,7 +18,7 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
 
 - Responds to various general inquiries and commands.
 
--Open Applications:
+- Open Applications:
 YouTube
 Google Chrome
 Terminal (Command Prompt)
