@@ -12,6 +12,61 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
  - [Live Test]()
  - [Code Explain]()
 
+#Functions 
+
+- General Interaction:
+
+- Responds to various general inquiries and commands.
+
+-Open Applications:
+YouTube
+Google Chrome
+Terminal (Command Prompt)
+Visual Studio Code
+Instagram
+Notepad
+WhatsApp Web
+GitHub Profile
+Close Applications:
+Visual Studio Code
+Notepad
+Microsoft Edge
+Chrome Browser
+YouTube
+
+- Weather Updates:
+Fetches and provides current weather information for specified locations using OpenWeatherMap API.
+
+- YouTube Search:
+Searches YouTube and plays the first video based on the given query.
+
+- Text Writing:
+Writes provided text in Notepad.
+
+- Speed Test:
+Measures and reports the current internet speed, including download speed, upload speed, and ping.
+
+- Place Locator:
+Opens Google Maps to search for specified places near the user's location.
+
+- Website Opener:
+Opens specified websites in the browser.
+
+- Time and Date:
+Provides the current time and date based on the system clock.
+
+- Character Information:
+Responds to questions about its developer and character name.
+
+- Command Control:
+Enables and disables command-taking based on user requests.
+
+- Special Character AI Interaction:
+Generates intelligent responses using Character AI for more complex or unique queries.
+
+- Google GenAI Integration:
+Generates content or responses using Google GenAI for specific requests, such as writing text in Notepad.
+
 ## API'S Used
 
  - [Notepad texts from Gemini API](https://ai.google.dev/?gad_source=1&gclid=Cj0KCQjw6auyBhDzARIsALIo6v9ti61NHvqFunUKsMwzEVwtjtdP0h69vNzHCWMRG4zVbRy6mCNmcJMaAuQCEALw_wcB)
