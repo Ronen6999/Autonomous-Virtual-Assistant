@@ -1,4 +1,3 @@
-#import pyttsx3
 import speech_recognition as sr
 import webbrowser
 import google.generativeai as genai
@@ -7,7 +6,7 @@ from datetime import datetime
 import os
 import pygame
 from bs4 import BeautifulSoup
-import time  # Import the time module
+import time 
 import config
 import pyautogui
 from characterai import aiocai
@@ -15,31 +14,19 @@ import asyncio
 import speedtest
 import re
 
-# Configure Google GenAI API key
 genai.configure(api_key=config.GEMINI_API)
 
-# Configure YouTube Data API key
 youtube_api_key = config.YOUTUBE_API
 
-# OpenWeatherMap API key and base URL
 api_key = config.WEATHER_API
 base_url = 'https://api.openweathermap.org/data/2.5/weather'
 
-# Initialize Pygame mixer
 pygame.mixer.init()
 
-# Initialize pyttsx3 engine
-#engine = pyttsx3.init('sapi5')
-#voices = engine.getProperty('voices')
-#engine.setProperty('voice', voices[0].id)
-#engine.setProperty('rate', 180)
-
-# Define the global variable outside of any function
 take_command_flag = True
 
-# Character AI configuration
 character_id = config.CHARACTER_ID
-character_ai_client = aiocai.Client(config.CHARACTER_AI_API)  # Replace with your Character AI API key
+character_ai_client = aiocai.Client(config.CHARACTER_AI_API) 
 
 async def get_character_ai_response(question):
     me = await character_ai_client.get_me()
@@ -49,7 +36,7 @@ async def get_character_ai_response(question):
         return message.text.strip()
 
 def delayed_start():
-    time.sleep(8)  # Wait for 8 seconds
+    time.sleep(8)  
     while True:
         query = take_command()
         if query == "":
@@ -67,17 +54,14 @@ def delayed_start():
 
 def speak(text):
     """Function to speak the provided text."""
-#    engine.say(text)
-#    engine.runAndWait()
 
 def take_command():
-    """Function to continuously listen until speech is detected."""
     
     r = sr.Recognizer()
     with sr.Microphone() as source:
         print('Listening....')
-        r.energy_threshold = 4000  # Adjust this threshold as needed
-        audio = r.listen(source, timeout=None)  # Keep listening indefinitely
+        r.energy_threshold = 4000 
+        audio = r.listen(source, timeout=None) 
         
     try:
         print("Recognizing.....")
@@ -92,12 +76,10 @@ if __name__ == '__main__':
     while True:
         query = take_command()
         if query:
-            # Process the query or break the loop based on your logic
             print("Query Detected:", query)
             break
 
 def get_weather(location):
-    """Function to fetch weather data for the given location."""
     try:
         url = f"{base_url}?q={location}&units=metric&appid={api_key}&lang=en"
         response = requests.get(url)
@@ -116,7 +98,6 @@ def get_weather(location):
         return "Failed to fetch weather data."
 
 def search_youtube(query):
-    """Function to search YouTube for videos based on the query."""
     try:
         search_url = f"https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=1&q={query}&key={youtube_api_key}"
         response = requests.get(search_url)
@@ -135,33 +116,25 @@ def open_notepad_and_write(reply_text):
     # Open Notepad using the 'os' module
     os.system("start notepad")
 
-    # Wait for Notepad to open (adjust the sleep duration as needed)
     time.sleep(2)
 
-    # Split the reply text into lines
     lines = reply_text.split('\n')
 
-    # Simulate keyboard input to type the reply in Notepad
     for line in lines:
         pyautogui.typewrite(line)
-        pyautogui.press('enter')  # Press Enter key after each line
+        pyautogui.press('enter') 
 
 async def reply(question):
     global take_command_flag
 
-    # Check if "in notepad" is mentioned in the question
     if 'in notepad' in question:
-        # Remove "in notepad" from the question
         question = question.replace('in notepad', '').strip()
         
-        # Generate the reply using Google GenAI
         response = genai.GenerativeModel('gemini-pro').generate_content(
             f"question: {question}\nAct and reply like you are {config.CHARACTER_NAME} an anime inspired virtual assistant:")
         
-        # Save the generated reply to a variable
         reply_text = response.text.strip()
         
-        # Call the function to open Notepad and write the reply
         open_notepad_and_write(reply_text)
 
         return "I wrote down your text in Notepad."
@@ -208,7 +181,7 @@ async def reply(question):
         date_today = datetime.now().strftime("%m/%d/%Y")
         return f"Today's date in India is {date_today}."
     elif 'weather' in question:
-        location = question.split('weather')[1].strip()  # Extract location from the query
+        location = question.split('weather')[1].strip() 
         return get_weather(location)
     elif 'shutdown' in question:
         return "System shutting down. Goodbye Ronen, Have a nice day."
@@ -258,11 +231,6 @@ async def reply(question):
     elif 'close vs code' in question:
         os.system("taskkill /f /im Code.exe /t")
         return "Closing VScode."
-    # Close Terminal
-    # elif 'close terminal' in question:
-    #     os.system("taskkill /f /im conhost.exe /t")
-    #     return "Closing Terminal."
-    # Close Chrome
     # Run Speed Test
     elif 'run speed test' in question:
         return speed_test()
@@ -300,7 +268,6 @@ async def reply(question):
         else:
             return f"Unable to find results for '{search_query}' on YouTube."
     else:
-        # Generate the reply using Character AI for other queries
         response = await get_character_ai_response(question)
         return response
     
@@ -357,4 +324,5 @@ def website_opener(*args, **kwargs):
         return False
 
 if __name__ == '__main__':
-    asyncio.run(delayed_start())  # Start the command-taking process after 8 seconds
+    asyncio.run(delayed_start())
+
