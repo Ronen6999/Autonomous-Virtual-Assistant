@@ -6,15 +6,6 @@ AVA (Autonomous Virtual Assistant) is an anime waifu virtual assistant. It lever
 <a href="https://github.com/Ronen6999/Autonomous-Virtual-Assistant">
     <img src="https://i.ibb.co/2hT7Hgm/2024-05-20-2.png" alt="Autonomous Virtual Assistant">
 </a>
-</p>
-
-<h4 align="center"> Join my WhatsApp Group if you face any error,bug or need help. You can also suggest me new features to add.
-</h4>
-
-<p align="center" >
-<a href="https://chat.whatsapp.com/E97PJIxKEvcKpRZFq7QWNV"><img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" width="140px">
-</a>
-</p>
     
 ---
 <br>
